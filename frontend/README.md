@@ -1,12 +1,12 @@
-MuleGraph AI – Fraud Detection System
+Mule-Detection-Graph – Fraud Detection System
 
-Overview
+1.Overview
 
-MuleGraph AI is an AI-powered financial fraud detection platform that identifies suspicious transactions and mule account networks using graph analysis and machine learning.
+ Mule-Detection-Graph is an AI-powered financial fraud detection platform that identifies suspicious transactions and mule account networks using graph analysis and machine learning.
 
 
 
-Key Features
+2.Key Features
 
  Transaction network visualization
  AI-based anomaly detection (Isolation Forest)
@@ -15,7 +15,7 @@ Key Features
  High-value transaction alerts
 
 
-Tech Stack
+3.Tech Stack
 
  Frontend: React.js, Recharts
  Backend: FastAPI, SQLAlchemy
@@ -23,16 +23,16 @@ Tech Stack
  AI/ML: Scikit-learn (Isolation Forest)
 
 
-AI Explanation
+4.AI Explanation
 
 The system uses Isolation Forest to detect unusual transaction behavior based on amount, frequency, and account activity.Higher anomaly score = higher fraud risk
 
 
-Run Locally
+5.Run Locally
 
 Backend=uvicorn main:app --reload
 
-Frontend
+6.Frontend
 
 cd frontend
 npm install
